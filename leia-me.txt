@@ -1,0 +1,58 @@
+Gostaria de compartilhar com vocês o fruto de 2 madrugadas de trabalho.
+
+É o XT-Conteúdo. O nosso módulo de conteúdo, baseado no TinyContent, com os seguintes diferenciais:
+Para o Spaw
+img_library.php - Acrescentado o campo "Digite a URL da imagem" para possibilitar a inserção de imagens por URL.
+img_library.php - Acrescentado sistema de uploads diretamente para a biblioteca de imagens do xoops, respeitando todas as configurações definidas ao criar a biblioteca.
+img_library.php - Consertado o preview de imagens quando a biblioteca está configurada para armazenar imagens no DB.
+img_library.php - Acrescentado o campo "nome para a imagem", usado ao fazer upload de imagens. Se deixar este campo vazio, o sistema usará o nome do arquivo enviado (sem a extensão como nome.
+- Acrescentado o botão "justificado", para justificar os textos.
+- As imagens dos botões "negrito", "itálico" e sublinhado foram traduzidas para o português. (N, I e S)
+Para ativar o Spaw deve-se ir em "Preferences" e em seguida ativar a opção "Usar Editor WYSIWYG?"
+Para a Tabela
+- Acrescentado o campo "parent_id", que possibilitou fazer toda a integração de um sistema de MENUS E SUBMENUS, tornando o módulo além da maravilha que é originalmente, um sistema de criação de páginas com categorias e subcategorias infinitas.
+Para os Blocos
+- Acrescentado o bloco MENUS E SUBMENUS. Trata-se de um javascript que exibe um lindo menu com submenus de acordo com os conteúdos criados.
+- Acrescentado o bloco MENU EM LISTA. Lembra daquele meu hack que colocava todo os conteúdos criados TinyContent em uma option list? Pois é, ele agora é bloco.
+Para o Módulo
+Em toda a adminstração (adicionar conteúdo / editar / deletar / adicionar link para arquivo, etc) foi integrado a opção "Exibir em:", que possibilitará ao módulo colocar conteúdo dentro de conteúdo, criando assim os submenus do bloco MENUS E SUBMENUS.
+Recursos Adicionais
+Nada que o Tinycontent tinha originalmente foi EXCLUÍDO. Os diferenciais do XT-Conteúdo foram acrescentados aos recursos atuais do TinyContent, apesar de que muitas coisas que o TinyContent tem se tornaram inúteis agora.
+A aparência do Menu pode ser editada facilmente através do arquivo modules\xt_conteudo\blocks\xtmenu.php (que está todo comentado para facilitar a edição)
+Se você quiser criar um menu SEM LINK (apenas para servir de base nos conteúdos que irão dentro dele) basta criar um novo conteúdo, deixando o seu corpo de texto VAZIO.
+Exemplo:
+Se você quer esta estrutura no Menu:
+Produtos -> Produto 1
+------------> Produto 2
+------------> Produto 3
+Você teria que primeiramente criar um novo conteúdo com o título PRODUTOS (se o corpo de texto dele tiver algum conteúdo, ele será um link). Em seguida criar mais um conteúdo com o título "Produto 1" e no campo "Adicionar em:" você define "Produtos".
+Assim, quando o visitante passar o mouse sobre "Produtos", o menu se expandirá e exibirá então os links "Produto 1", "Produto 2" e assim por diante.
+Porque estou postando em Fórum Restrito?
+Eu fiz este módulo meio que na pressa e não coloquei os termos de tradução, apenas coloquei os textos originais onde eles devem aparecer. Portanto acho que ele deve passar pela revisão e aprovação de vocês antes de divulgarmos o definitivo no xoopscube.org.
+Problemas Conhecidos
+Muitos vão perguntar : "Funciona no Firefox??"
+A resposta é sim. Porém no início do seu tema não pode ter a tag:
+Citando:
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Deve conter apenas:
+Citando:
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+(Alguém por favor me explique porque é preciso fazer isso, já que o W3C diz que a grande diferença entre HTML 4.1 e XHTML 1 é o suporte a XML)
+Eu resolvi este problema abrindo o arquivo header.php e colocando lá pela linha 78 (antes do comentário // show banner?) o seguinte código:
+Citando:
+$agent = $_SERVER['HTTP_USER_AGENT'];
+if (eregi("MSIE[^;]*",$agent)) {
+$xoopsTpl->assign('xoops_agent', 'IE');
+}else{
+$xoopsTpl->assign('xoops_agent', 'NIE');
+}
+Fazendo isso eu mandei para o tema a Smarty Tag <{$xoops_agent}> que contem o valor "IE" se o usuário usar IE e "NIE" se o usuário usar outro navegador.
+Daí no começo do meu tema eu apaguei da tag <html...> pra cima e coloquei isso:
+Citando:
+<{if $xoops_agent == "IE"}>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<{else}>
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="<{$xoops_langcode}>">
+<{/if}>

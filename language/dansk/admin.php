@@ -1,0 +1,36 @@
+<?php
+define('_TC2_ADMINTITLE', 'XT-Conteúdo');
+define('_TC2_MAINMENU', 'Main Menu');
+define('_TC2_ADDCONTENT', 'Tilføj nyt indhold');
+define('_TC2_EDITCONTENT', 'Redigér indhold');
+define('_TC2_ADDLINK', 'Tilføj link');
+define('_TC2_EDITLINK', 'Redigér link');
+define('_TC2_ULFILE', 'Upload fil');
+define('_TC2_SFILE', 'Søg');
+define('_TC2_DELFILE', 'Slet fil');
+define('_TC2_HOMEPAGE', 'Hjemmeside');
+define('_TC2_POSITION', 'Position');
+define('_TC2_LINKNAME', 'Link overskrift');
+define('_TC2_STORYID', 'ID');
+define('_TC2_VISIBLE', 'Synlig');
+define('_TC2_CONTENT', 'Indhold');
+define('_TC2_YES', 'Ja');
+define('_TC2_NO', 'Nej');
+define('_TC2_URL', 'Vælg fil');
+define('_TC2_UPLOAD', 'Upload');
+define('_TC2_LINKID', 'Link-ID');
+define('_TC2_ACTION', 'Handling');
+define('_TC2_EDIT', 'Redigér');
+define('_TC2_DELETE', 'Slet');
+define('_TC2_DISABLECOM', 'Deaktiver kommentarer');
+define('_TC2_DBUPDATED', 'Ændringerne er gemt i databasen!');
+define('_TC2_ERRORINSERT', 'Der opstod en fejl under skrivningen til databasen!');
+define('_TC2_RUSUREDEL', 'Er du sikker på at du vil slette dette indhold?');
+define('_TC2_RUSUREDELF', 'Er du sikker på at du vil slette denne fil?');
+define('_TC2_UPLOADED', 'Filen er blevet sendt til serveren!');
+define('_TC2_FDELETED', 'Filen er blevet slettet!');
+define('_TC2_ERRORUPL', 'Overførslen af filen til serveren fejlede!');
+define('_TC2_PERMERROR', 'FEJL: Kan ikke skrive til fil mappen. Udfør venligst "chmod 777" på mappen!');
+// Added in v1.4
+define('_TC2_DISABLEBREAKS', 'Deaktiver konvertering af linieskift (Aktiver denne nnår der benyttes HTML)');
+define('_TC2_SUBMENU', 'Under-menu');

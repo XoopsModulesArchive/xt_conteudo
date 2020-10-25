@@ -1,0 +1,36 @@
+<?php
+define('_TC2_ADMINTITLE', 'XT-Conte&uacute;do');
+define('_TC2_MAINMENU', 'メインメニュー');
+define('_TC2_ADDCONTENT', '新規コンテンツの追加');
+define('_TC2_EDITCONTENT', 'コンテンツの編集');
+define('_TC2_ADDLINK', 'ページラップの追加');
+define('_TC2_EDITLINK', 'ページラップの変更');
+define('_TC2_ULFILE', 'ファイルのアップロード');
+define('_TC2_SFILE', 'ローカルファイルの選択');
+define('_TC2_DELFILE', 'ファイルの削除');
+define('_TC2_HOMEPAGE', 'HP');
+define('_TC2_POSITION', '優先度');
+define('_TC2_LINKNAME', 'タイトル');
+define('_TC2_STORYID', 'ID');
+define('_TC2_VISIBLE', '表示を許可する');
+define('_TC2_CONTENT', 'コンテンツ');
+define('_TC2_YES', 'はい');
+define('_TC2_NO', 'いいえ');
+define('_TC2_URL', 'ファイルの選択');
+define('_TC2_UPLOAD', 'アップロード');
+define('_TC2_LINKID', '表示順');
+define('_TC2_ACTION', 'アクション');
+define('_TC2_EDIT', '編集');
+define('_TC2_DELETE', '削除');
+define('_TC2_DISABLECOM', 'コメント不可');
+define('_TC2_DBUPDATED', 'データベースを更新しました');
+define('_TC2_ERRORINSERT', 'データベースの更新に失敗しました');
+define('_TC2_RUSUREDEL', '本当にコンテンツを削除してよろしいですか？<br>このコンテンツにつけられたコメントもすべて消えます。');
+define('_TC2_RUSUREDELF', '本当にファイルを削除してよろしいですか？');
+define('_TC2_UPLOADED', 'ファイルのアップロードが完了しました');
+define('_TC2_FDELETED', 'フィルの削除が終わりました');
+define('_TC2_ERRORUPL', 'ファイルのコピーに失敗しました');
+define('_TC2_PERMERROR', 'ERROR：ファイルのディレクトリーをアクセス出来ません。このエラーをレンタルサーバーサービスに聞かせて下さい：CHMOD!');
+// Added in v1.4
+define('_TC2_DISABLEBREAKS', '改行を＜br＞に変換しない');
+define('_TC2_SUBMENU', 'サブメニューに表示する');

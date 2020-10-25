@@ -1,0 +1,36 @@
+<?php
+define('_TC2_ADMINTITLE', 'XT-Conteúdo');
+define('_TC2_MAINMENU', 'Main Menu');
+define('_TC2_ADDCONTENT', 'Nieuwe content toevoegen');
+define('_TC2_EDITCONTENT', 'Content wijzigen');
+define('_TC2_ADDLINK', 'Link toevoegen');
+define('_TC2_EDITLINK', 'Link wijzigen');
+define('_TC2_ULFILE', 'Upload File');
+define('_TC2_SFILE', 'Search');
+define('_TC2_DELFILE', 'Delete File');
+define('_TC2_HOMEPAGE', 'Homepage');
+define('_TC2_POSITION', 'Position');
+define('_TC2_LINKNAME', 'Linktitel');
+define('_TC2_STORYID', 'ID');
+define('_TC2_VISIBLE', 'Zichtbaar');
+define('_TC2_CONTENT', 'Content');
+define('_TC2_YES', 'Ja');
+define('_TC2_NO', 'Nee');
+define('_TC2_URL', 'URL');
+define('_TC2_UPLOAD', 'Upload');
+define('_TC2_LINKID', 'Link-ID');
+define('_TC2_ACTION', 'Actie');
+define('_TC2_EDIT', 'Wijzigen');
+define('_TC2_DELETE', 'Verwijderen');
+define('_TC2_DISABLECOM', 'Disable comments');
+define('_TC2_DBUPDATED', 'Database succesvol bijgewerkt!');
+define('_TC2_ERRORINSERT', 'Fout bij het bijwerken van de database!');
+define('_TC2_RUSUREDEL', 'Are you sure you want to delete this content? <br>All comments linked to the content will be removed');
+define('_TC2_RUSUREDELF', 'Are you sure you want to delete this file?');
+define('_TC2_UPLOADED', 'File Uploaded Successfully!');
+define('_TC2_FDELETED', 'File Deleted Successfully!');
+define('_TC2_ERRORUPL', 'Error while uploading file!');
+define('_TC2_PERMERROR', 'ERRO: Não consigo acessar o diretório deste arquivo. Por favor, contate o SUPORTE e informe o ERRO: CHMOD!');
+// Added in v1.4
+define('_TC2_DISABLEBREAKS', 'Disable Linebreak Conversion (Activate when using HTML)');
+define('_TC2_SUBMENU', 'Submenu');

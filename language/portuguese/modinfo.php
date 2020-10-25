@@ -1,0 +1,21 @@
+<?php
+define('_MI2_XTCONTEUDO_NAME', 'XT-Conteúdo');
+define('_MI2_XTCONTEUDO_DESC', 'Cria páginas estáticas para seu Site.');
+define('_MI2_TC2_BNAME1', 'Menu');
+define('_MI2_TC2_BNAME1_DESC', 'Configura a navegação');
+define('_MI2_TC2_BNAME2', 'Menu em Lista');
+define('_MI2_TC2_BNAME2_DESC', 'Exibe os conteúdos dentro de uma lista');
+define('_MI2_TC2_BNAME3', 'Menus e Submenus');
+define('_MI2_TC2_BNAME3_DESC', 'Exibe os conteúdos dentro de um menu DHTML');
+define('_MI2_TC2_BNAME4', 'Menu em Árvore');
+define('_MI2_TC2_BNAME4_DESC', 'Exibe os conteúdos em um menu hierárquivo estilo árvore');
+define('_TC2_MD_ADMENU1', 'Adicionar Conteúdo');
+define('_TC2_MD_ADMENU2', 'Adicionar um Arquivo');
+define('_TC2_MD_ADMENU3', 'Editar/Deletar');
+define('_MI2_WYSIWYG', ' Usar Editor WYSIWYG?');
+define('_MI2_WYSIWYG_DESC', 'Habilita o editor WYSIWYG');
+define('_MI2_XTCONTEUDO_PREFIX', 'xt_conteudo');
+define('_MI2_DIR_NAME', 'xt_conteudo');
+define('_MI2_TEMP_NAME1', 'Lay-out da Página');
+define('_TC2_LINKHOME', 'Exibir Link para Home?)');
+define('_TC2_LINKMODULES', 'Exibir Links dos Módulos?');

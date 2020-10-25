@@ -1,0 +1,36 @@
+<?php
+define('_TC2_ADMINTITLE', 'XT-Conteúdo');
+define('_TC2_MAINMENU', 'Menu Principal');
+define('_TC2_ADDCONTENT', 'Adicionar nova Página');
+define('_TC2_EDITCONTENT', 'Editar Página');
+define('_TC2_ADDLINK', 'Adicionar Link para Arquivo');
+define('_TC2_EDITLINK', 'Editar Link para Arquivo');
+define('_TC2_ULFILE', 'Fazer Upload de um Arquivo');
+define('_TC2_SFILE', 'Procurar');
+define('_TC2_DELFILE', 'Deletar Arquivo');
+define('_TC2_HOMEPAGE', 'Home');
+define('_TC2_POSITION', 'Exibir em');
+define('_TC2_LINKNAME', 'Título');
+define('_TC2_STORYID', 'ID');
+define('_TC2_VISIBLE', 'Visível');
+define('_TC2_CONTENT', 'Conteúdo');
+define('_TC2_YES', 'Sim');
+define('_TC2_NO', 'Não');
+define('_TC2_URL', 'Selecionar Arquivo');
+define('_TC2_UPLOAD', 'Upload');
+define('_TC2_LINKID', 'Link-ID');
+define('_TC2_ACTION', 'Ação');
+define('_TC2_EDIT', 'Editar');
+define('_TC2_DELETE', 'Deletar');
+define('_TC2_DISABLECOM', 'Desativar Comentários');
+define('_TC2_DBUPDATED', 'Base de Dados Atualizada com Sucesso!');
+define('_TC2_ERRORINSERT', 'Erro ao Atualizar a Base de Dados!');
+define('_TC2_RUSUREDEL', 'Você tem certeza de que deseja deletar esta página?');
+define('_TC2_RUSUREDELF', 'Você tem certeza de que deseja deletar este Arquivo?');
+define('_TC2_UPLOADED', 'Upload feito com Sucesso!');
+define('_TC2_FDELETED', 'Arquivo Deletado com Sucesso!');
+define('_TC2_ERRORUPL', 'Erro ao fazer Upload!');
+define('_TC2_PERMERROR', 'ERRO: Não consigo acessar o diretório deste arquivo. Por favor, contate o SUPORTE e informe o ERRO: CHMOD!');
+// Added in v1.4
+define('_TC2_DISABLEBREAKS', 'Desabilitar conversão de quebra de linha.(Ativo quando usar HTML)');
+define('_TC2_SUBMENU', 'SubMenu');

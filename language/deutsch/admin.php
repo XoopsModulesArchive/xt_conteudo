@@ -1,0 +1,36 @@
+<?php
+define('_TC2_ADMINTITLE', 'XT-Conteúdo');
+define('_TC2_MAINMENU', 'Main Menu');
+define('_TC2_ADDCONTENT', 'Neuen Content hinzufügen');
+define('_TC2_EDITCONTENT', 'Content bearbeiten');
+define('_TC2_ADDLINK', 'Link hinzufügen');
+define('_TC2_EDITLINK', 'Link editieren');
+define('_TC2_ULFILE', 'Datei hochladen');
+define('_TC2_SFILE', 'Durchsuchen');
+define('_TC2_DELFILE', 'Datei löschen');
+define('_TC2_HOMEPAGE', 'Homepage');
+define('_TC2_POSITION', 'Position');
+define('_TC2_LINKNAME', 'Linkname');
+define('_TC2_STORYID', 'ID');
+define('_TC2_VISIBLE', 'Sichtbar');
+define('_TC2_CONTENT', 'Content');
+define('_TC2_YES', 'Ja');
+define('_TC2_NO', 'Nein');
+define('_TC2_URL', 'Datei auswählen');
+define('_TC2_UPLOAD', 'Hochladen');
+define('_TC2_LINKID', 'Link-ID');
+define('_TC2_ACTION', 'Aktion');
+define('_TC2_EDIT', 'Ändern');
+define('_TC2_DELETE', 'Löschen');
+define('_TC2_DISABLECOM', 'Kommentare deaktivieren');
+define('_TC2_DBUPDATED', 'Datenbank erfolgreich aktualisiert!');
+define('_TC2_ERRORINSERT', 'Fehler beim Aktualisieren der Datenbank!');
+define('_TC2_RUSUREDEL', 'Diesen Content wirklich löschen?');
+define('_TC2_RUSUREDELF', 'Diese Datei wirklich löschen?');
+define('_TC2_UPLOADED', 'Datei erfolgreich hochgeladen!');
+define('_TC2_FDELETED', 'Datei erfolgreich gelöscht!');
+define('_TC2_ERRORUPL', 'Fehler beim Hochladen der Datei!');
+define('_TC2_PERMERROR', 'ERROR: cannot access file directory. Please chmod the content directory with value 777!');
+// Added in v1.4
+define('_TC2_DISABLEBREAKS', 'Linebreak Conversion deaktivieren (Wichtig bei HTML Code!)');
+define('_TC2_SUBMENU', 'Submenu');

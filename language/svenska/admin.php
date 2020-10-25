@@ -1,0 +1,36 @@
+<?php
+define('_TC2_ADMINTITLE', 'XT-Conteúdo');
+define('_TC2_MAINMENU', 'Main Menu');
+define('_TC2_ADDCONTENT', 'Lägg till nytt Innehåll');
+define('_TC2_EDITCONTENT', 'Editera Innehåll');
+define('_TC2_ADDLINK', 'Länka HTML sida');
+define('_TC2_EDITLINK', 'Modifiera HTML sida');
+define('_TC2_ULFILE', 'Ladda upp HTML fil');
+define('_TC2_SFILE', 'Sök');
+define('_TC2_DELFILE', 'Radera Fil');
+define('_TC2_HOMEPAGE', 'Index');
+define('_TC2_POSITION', 'Position');
+define('_TC2_LINKNAME', 'Länktitel');
+define('_TC2_STORYID', 'Fil ID');
+define('_TC2_VISIBLE', 'Synlig');
+define('_TC2_CONTENT', 'Innehåll');
+define('_TC2_YES', 'Ja');
+define('_TC2_NO', 'Nej');
+define('_TC2_URL', 'Välj Fil');
+define('_TC2_UPLOAD', 'Ladda upp');
+define('_TC2_LINKID', 'Prioritet');
+define('_TC2_ACTION', 'Åtgärd');
+define('_TC2_EDIT', 'Editera');
+define('_TC2_DELETE', 'Radera');
+define('_TC2_DISABLECOM', 'Inaktivera kommentarer');
+define('_TC2_DBUPDATED', 'Uppdatering av Databasen lyckades!');
+define('_TC2_ERRORINSERT', 'Ooops, ett fel uppstod vid uppdatering av databasen!');
+define('_TC2_RUSUREDEL', 'Är Ni säker på att Ni vill radera innehållet? <br>Alla kommentarer som är länkade till denna artikel kommer att tas bort.');
+define('_TC2_RUSUREDELF', 'Är Ni säker på att Ni vill radera denna fil?');
+define('_TC2_UPLOADED', 'Uppladdningen av Filen lyckades!');
+define('_TC2_FDELETED', 'Raderingen av Filen lyckades!');
+define('_TC2_ERRORUPL', 'Fel under uppladdning av Fil!');
+define('_TC2_PERMERROR', 'ERRO: Não consigo acessar o diretório deste arquivo. Por favor, contate o SUPORTE e informe o ERRO: CHMOD!');
+// Added in v1.4
+define('_TC2_DISABLEBREAKS', 'Inaktivera radbytes konvertering (Aktiveras när HTML används)');
+define('_TC2_SUBMENU', 'Visa i Undermeny');
